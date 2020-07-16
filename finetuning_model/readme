@@ -1,0 +1,4 @@
+
+word2vec_SE: consists of the word2vec_base model after fine-tuning with the corpus corpPret_SE.
+
+BERT_SE: consists of the BERT_base model after fine-tuning with the corpus corpPret_SE.

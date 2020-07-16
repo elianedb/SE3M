@@ -1,1 +1,10 @@
+In this folder are the generic pre-trained embeddings models:
+
+- word2vec_base: trained on a corpus from Wikipedia using the Word2Vec algorithm. For this, the following hyperparameters were used: number of dimensions 
+of the hidden layer = 100; method applied to
+the learning task = CBOW. 
+
+- BERT_base: Bert_base uncased: 12 layers for each token, 768 hidden layers, 12 heads of attention, 110 million parameters. The uncased specification means
+that the text was converted to lower case before tokenization based on WordPiece, in addition, removes any accent marks. This model was trained with english
+texts (Wikipedia) with lowercase letters.
 

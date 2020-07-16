@@ -2,3 +2,7 @@
 word2vec_SE: consists of the word2vec_base model after fine-tuning with the corpus corpPret_SE.
 
 BERT_SE: consists of the BERT_base model after fine-tuning with the corpus corpPret_SE.
+
+This models are available in below link:
+
+https://drive.google.com/drive/folders/1CaV8hcCzUaBcXJlLCGtCR-KekTxYN4_b?usp=sharing

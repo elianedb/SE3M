@@ -16,11 +16,18 @@ FÁVERO, Eliane M.; CASANOVA, Dalcimar; PIMENTEL, Andrey Ricardo. SE3M: A Model 
 
 3. Unlabeled data set (user story) used in the fine-tuning process of pre-trained embeddings.
       https://github.com/morakotch/datasets/tree/master/storypoint/IEEE%20TSE2018/pretrain%20data
-  
+
+4. The pre-processing of the data used to perform the fine-tuning process with BERT, as well as fine-tuning, used the methods provided by the BERT model in its official repository at https://github.com/google-research/bert 
+   - For data pre-processing: create_pretraining_data.py 
+      - Standard parameters were used, changing only the following::
+         -input_file= (inform file .txt containing all the textual requirements provided in item 2)
+         -output_file=./tf_examples.tfrecord \
+         -vocab_file= (inform file .txt corresponding to the vocabulary of the pre-trained model used, ex./uncased_L-12/vocab.txt) 
+
 
 4. Pre-trained embeddings (fine-tuned) models for the specific domain of software engineering (SE):
-  - word2vec_SE
-  - BERT_SE
+   - word2vec_SE
+   - BERT_SE
 
 5. The "SE3M_model.ipynb" file contains a deep learning of architecture used as an inference model for estimating software effort by analogy. Is a Google Colab notebook, simply replacing the paths of the files used.
 

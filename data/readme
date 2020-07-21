@@ -5,6 +5,6 @@ requirement text (unstructured and with no special characters and no major stop 
 
 - The "reqTxt.csv" file contains the 23313 requirements texts.
 
-- The "estiDeep.data" file contains the label (esforço em story points) of 23313 requirements texts.
+- The "estiDeep.data" file contains the label (effort instory points) of 23313 requirements texts.
 
 

@@ -21,7 +21,7 @@ FÁVERO, Eliane M.; CASANOVA, Dalcimar; PIMENTEL, Andrey Ricardo. SE3M: A Model 
    - For data pre-processing: create_pretraining_data.py 
       - Standard parameters were used, changing only the following::
          -input_file= (inform file .txt containing all the textual requirements provided in item 2)
-         -output_file=./tf_examples.tfrecord \
+         -output_file=./filename.tfrecord 
          -vocab_file= (inform file .txt corresponding to the vocabulary of the pre-trained model used, ex./uncased_L-12/vocab.txt) 
 
 

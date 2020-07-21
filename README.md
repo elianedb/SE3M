@@ -4,24 +4,25 @@ This repository contains the source codes and data set used in the experiments a
 FÁVERO, Eliane M.; CASANOVA, Dalcimar; PIMENTEL, Andrey Ricardo. SE3M: A Model for Software Effort Estimation Using Pre-trained Embedding Models. arXiv preprint arXiv:2006.16831, 2020.
 
 
-1. Conjunto de dados (histórias de usuário) rotulado [1], usado para treino e testes do modelo de inferência.
+1. Data set (user story) labeled [1], used for training and testing the inference model.
    https://github.com/morakotch/datasets/tree/master/storypoint/IEEE%20TSE2018/dataset
    
-   - Correspondem a um conjunto de arquivos .CSV correpondentes a cada um dos projetos utilizados. 
+   - Correspond to a set of .CSV files for each of the projects used.
 
-2. Modelos de embeddings pré-treinados (genéricos). 
-   - Disponíveis na pasta "pretrain_model"
+2. Pre-trained embeddings (generic). 
+   - Available in the folder "pretrain_model"
      - word2vec_base
      - BERT_base
 
-3. Conjunto de dados (histórias de usuário) não-rotulado, utilizado no processo de ajuste fino dos modelos de embeddings pré-treinados.
+3. Unlabeled data set (user story) used in the fine-tuning process of pre-trained embeddings.
       https://github.com/morakotch/datasets/tree/master/storypoint/IEEE%20TSE2018/pretrain%20data
-   
-   - Correspondem a um conjunto de arquivos .CSV correpondentes a cada um dos projetos utilizados. 
+  
 
-4. Modelos de embeddings pré-treinados (ajustados):
+4. Pre-trained embeddings (fine-tuned) models for the specific domain of software engineering (SE):
   - word2vec_SE
   - BERT_SE
+
+5. The "SE3M_model.ipynb" file contains a deep learning of architecture used as an inference model for estimating software effort by analogy. Is a Google Colab notebook, simply replacing the paths of the files used.
 
 
 References:

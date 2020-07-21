@@ -3,6 +3,8 @@
 - The dataset (dataissue_estimate.zip) provides 23313 requirements texts in .txt format, containing: Requirement ID (eg arq01), 
 requirement text (unstructured and with no special characters and no major stop words).
 
+- The file "reqTxt.csv" contains the 23313 requirements texts in matrix numpy (Python type) format.
 
+- 
 
 

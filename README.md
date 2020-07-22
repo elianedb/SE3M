@@ -8,6 +8,7 @@ Other related works:
 
 - Fávero, E. M. D. B., Casanova, D., & Pimentel, A. R. (2019, September). EmbSE: A Word Embeddings Model Oriented Towards Software Engineering Domain. In Proceedings of the XXXIII Brazilian Symposium on Software Engineering (pp. 172-180).
 
+Resources available:
 
 1. Data set (user story) labeled [1], used for training and test
 ing the inference model.

@@ -1,10 +1,16 @@
 # SE3M
 This repository contains the source codes and data set used in the experiments at the article entitled "SE3M: A model for estimating software effort using pre-trained embeddings models" (FÁVERO et al., 2020).
 
-FÁVERO, Eliane M.; CASANOVA, Dalcimar; PIMENTEL, Andrey Ricardo. SE3M: A Model for Software Effort Estimation Using Pre-trained Embedding Models. arXiv preprint arXiv:2006.16831, 2020.
+Fávero, E. M., Casanova, D., & Pimentel, A. R. (2020). SE3M: A Model for Software Effort Estimation Using Pre-trained Embedding Models. arXiv preprint arXiv:2006.16831.
+
+Other related works:
+- Fávero, E. M. D. B., Pereira, R., Pimentel, A. R., & Casanova, D. (2018). Analogy-based Effort Estimation: A Systematic Mapping of Literature. INFOCOMP Journal of Computer Science, 17(2), 07-22.
+
+- Fávero, E. M. D. B., Casanova, D., & Pimentel, A. R. (2019, September). EmbSE: A Word Embeddings Model Oriented Towards Software Engineering Domain. In Proceedings of the XXXIII Brazilian Symposium on Software Engineering (pp. 172-180).
 
 
-1. Data set (user story) labeled [1], used for training and testing the inference model.
+1. Data set (user story) labeled [1], used for training and test
+ing the inference model.
    https://github.com/morakotch/datasets/tree/master/storypoint/IEEE%20TSE2018/dataset
    
    - Correspond to a set of .CSV files for each of the projects used.

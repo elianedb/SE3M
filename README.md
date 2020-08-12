@@ -41,7 +41,7 @@ ing the inference model.
 
 References:
 
-[1] M. Choetkiertikul, HK Dam, T. Tran, TTM Pham, A. Ghose e T. Menzies, "Um modelo de aprendizado profundo para estimar pontos da história", IEEE Trans. Softw. Eng. Vol. PP, não. 99, p. 1, 2018.
+[1] M. Choetkiertikul, HK Dam, T. Tran, TTM Pham, A. Ghose e T. Menzies, "A deep learning model for estimating story points.", IEEE Trans. Softw. Eng. Vol. PP, não. 99, p. 1, 2018.
 
 
 
